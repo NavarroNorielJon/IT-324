@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="map.css">
+  <link rel='stylesheet' href='style.css'>
+  <TITLE> MAP </TITLE>
+  </head>
+  <body>
+
+  <div id ="BAR">
+      <a href="map.html"><span title = "Map!">
+        MAP</span></a>&#160;&#8226;&#160; 
+      <a href="index.html"><span title = "Home!">
+        HOME</span></a>&#160;&#8226;&#160; 
+      <a href="gallery.html.html"><span title = "Gallery!">
+        GALLERY</span></a>&#160;&#8226;&#160; 
+      <a href="CONTACT.html"><span title = "Contact Us!">
+        CONTACT US</span></a>&#160;&#8226;&#160; 
+      <a href="about.html"><span title = "About">ABOUT </span></a>&#160;&#8226;&#160;
+    </div>
+
+    <div id = boxunder></div>
+    <div id="map"></div>
+    <script>
+      function initMap() {
+        var uluru = {lat: 16.412873108776175, lng: 120.59055697374947};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 18,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyADy_EW6w-Vh4z5kTwDdlkPPzun9uuEZRY&callback=initMap">
+    </script>
+	
+	
+	 <footer>
+        <p> Webtech 2018 </p>
+        
+ </footer>
+  </body>
+</html>
