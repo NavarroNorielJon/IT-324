@@ -1,0 +1,88 @@
+@font-face { font-family: Futura; src: url('Fonts/FUTURA.TTF'); }
+@font-face { font-family: Helvetica; src: url('Fonts/HLL.TTF'); }
+@font-face { font-family: Salome; src: url('Fonts/Salome.TTF'); }
+
+/**NAVIGATION*/
+#sidebar{
+	width: 275px;
+	height: 30px;
+	background-color: rgba(212,226,227,1.0);
+	border-radius: 15px 15px 0px 0px;
+	left:150px;
+	top: 140px;
+	position: fixed;
+}
+#navigation{
+	height: 230px;
+	width: 235px;
+	background-color: rgba(255,255,255,0.6);
+	position: fixed;
+	border-radius: 0px 0px 15px 15px;
+	left: 150px;
+	top: 170px;
+	padding: 20px;
+}
+.section{
+	background-color: white;
+	width: 230px;
+	padding: 3px;
+	padding-bottom: 6px;
+	padding-top: 6px;
+	margin-bottom: 10px;
+	-webkit-transition-property: border-radius; 
+    -webkit-transition-duration: 2s; 
+    transition-property: border-radius;
+    transition-duration: 2s;
+}
+.section:hover{
+	border-radius: 10px;
+	background-color: rgba(48,48,48,1.0);
+	font-family: Salome;
+	color: white;
+}
+a.section
+/**BODY*/
+body{
+	  background-image: url(../IMAGES/BACKGROUND.PNG);
+}
+h1{
+  font-family: Salome;	
+}
+h2{
+  font-family: Futura;
+}
+.buttoncont{
+		text-align: right;
+		padding-right: 10px;
+    }
+#contentcontainer{
+	font-family: Helvetica;
+	width: 500px;
+	float: right;
+	position: absolute;
+	right:200px;
+    background-color: rgba(255,255,255,0.0);
+	font: white;
+	top:0;
+	bottom: 50px;
+}
+.contenttab{
+	background-color: rgba(212,226,227,1.0);
+	border-radius: 10px 10px 0px 0px;
+	width: 500px;
+	height: 20px;
+	float: right;
+}
+.content{
+	background-color: rgba(255,255,255,0.6);
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	border:1.5px solid rgba(212,226,227,1.0);
+	border-radius: 0px 0px 15px 15px;
+	float: right;
+}
+#visionmission{
+	font-family: Helvetica;
+	padding: 20px;
+}
