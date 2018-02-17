@@ -1,0 +1,90 @@
+@font-face { font-family: Futura; src: url('FONTS/FUTURA.TTF'); }
+@font-face { font-family: Helvetica; src: url('FONTS/HLL.TTF'); }
+@font-face { font-family: Salome; src: url('FONTS/Salome.TTF'); }
+@font-face { font-family: BAMBI; src: url('FONTS/X_BAMBI.TTF'); }
+a:link{
+	background-color: white;
+		color: #3f4651;
+}
+h2{
+	font-family: Futura;
+}
+/**NAVIGATION*/
+#BAR{
+	height: 100px;
+	width: 255px;
+	background-color: rgba(255,255,255,0.6);
+	position: fixed;
+	border-radius: 15px;
+	right: 300px;
+	top: 200px;
+	padding: 10px;
+}
+a:link, a:visited, a:active{
+	display: block;
+	padding:10px;
+	font-family: FUTURA;
+	background-color: white;
+	width: 230px;
+	
+	-webkit-transition: border-radius 2s, text-align 2s;
+	text-decoration: none;
+	text-align: center;
+	font-family: BAMBI;
+	text-transform: uppercase;
+	color: #3f4651;
+	}
+a:hover{
+	display: block;
+	padding:10px;
+	border-radius: 10px;
+	background-color: rgba(48,48,48,1.0);
+	text-decoration: none;
+	text-align: right;
+	color: white;
+	font-family:BAMBI;
+	font-style: italic;
+	text-transform: lowercase;
+}
+/**BODY*/
+body{
+	background-image: url(IMAGES/BACKGROUND1.PNG);
+	
+}
+
+footer{ 
+	text-align: right;
+	font-family: Helvetica;
+	background-color: rgba(212,226,227,1.0);	
+    display: block;
+	width: 99%;
+	position: fixed;
+	bottom: 0;
+}
+form {
+	position: fixed;
+	top: 100px;
+	width: 600px;
+    text-align: center;
+	float: right;
+	left: 100px;
+	background-color: rgba(255,255,255,0.6);
+}
+p{
+	font-family: Helvetica;
+}
+
+/**ABOUT*/
+
+#INTRODUCTION, #INTRO, #HUMANRIGHTS, #INTROCONTENT{
+	position: relative;
+	width: 500px;
+	margin-left: 200px;
+}
+#HUMANRIGHTS{
+	margin-bottom: 100px;
+}
+
+
+
+
