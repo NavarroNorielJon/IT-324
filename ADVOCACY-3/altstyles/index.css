@@ -1,6 +1,8 @@
-@font-face { font-family: Futura; src: url('Fonts/FUTURA.TTF'); }
-@font-face { font-family: Helvetica; src: url('Fonts/HLL.TTF'); }
-@font-face { font-family: Salome; src: url('Fonts/Salome.TTF'); }
+@font-face { font-family: Futura; src: url('FONTS/FUTURA.TTF'); }
+@font-face { font-family: Helvetica; src: url('FONTS/HLL.TTF'); }
+@font-face { font-family: Salome; src: url('FONTS/Salome.TTF'); }
+@font-face { font-family: NEOU; src: url('../FONTS/FUTURA.TTF'); }
+@font-face { font-family: BAMBI; src: url('../FONTS/X_BAMBI.TTF'); }
 
 /**NAVIGATION*/
 #sidebar{
@@ -13,37 +15,46 @@
 	position: fixed;
 }
 #navigation{
-	height: 230px;
-	width: 235px;
+	height: 280px;
+	width: 255px;
 	background-color: rgba(255,255,255,0.6);
 	position: fixed;
 	border-radius: 0px 0px 15px 15px;
 	left: 150px;
 	top: 170px;
-	padding: 20px;
+	padding: 10px;
 }
-.section{
+a:link, a:visited, a:active{
+	display: block;
+	padding:10px;
+	font-family: FUTURA;
 	background-color: white;
 	width: 230px;
-	padding: 3px;
-	padding-bottom: 6px;
-	padding-top: 6px;
-	margin-bottom: 10px;
-	-webkit-transition-property: border-radius; 
-    -webkit-transition-duration: 2s; 
-    transition-property: border-radius;
-    transition-duration: 2s;
-}
-.section:hover{
+	-webkit-transition: border-radius 2s, text-align 2s;
+	text-decoration: none;
+	text-align: center;
+	font-family: BAMBI;
+	text-transform: uppercase;
+	color: #3f4651;
+	}
+a:hover{
+	display: block;
+	padding:10px;
 	border-radius: 10px;
 	background-color: rgba(48,48,48,1.0);
-	font-family: Salome;
+	text-decoration: none;
+	text-align: right;
 	color: white;
+	font-family:BAMBI;
+	font-style: italic;
+	text-transform: lowercase;
 }
-a.section
+.section{
+	margin-bottom: 10px;
+}
 /**BODY*/
 body{
-	  background-image: url(../IMAGES/BACKGROUND.PNG);
+	  background-image: url(../IMAGES/BACKGROUND1.PNG);
 }
 h1{
   font-family: Salome;	
@@ -63,7 +74,7 @@ h2{
 	right:200px;
     background-color: rgba(255,255,255,0.0);
 	font: white;
-	top:0;
+	top:20px;
 	bottom: 50px;
 }
 .contenttab{
@@ -81,8 +92,20 @@ h2{
 	border:1.5px solid rgba(212,226,227,1.0);
 	border-radius: 0px 0px 15px 15px;
 	float: right;
+	margin-bottom: 20px;
 }
 #visionmission{
 	font-family: Helvetica;
 	padding: 20px;
+}
+::-webkit-scrollbar {
+    height: 12px;
+	width: 12px;
+	background: #ffffff;
+    }
+::-webkit-scrollbar-thumb {
+    background: #d4e2e3;
+}
+::-webkit-scrollbar-corner {
+    background: #000;
 }
