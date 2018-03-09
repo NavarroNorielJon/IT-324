@@ -1,0 +1,259 @@
+/* Font Style */
+@font-face{
+  font-family: RaspoutineDemiBold_TB;
+  src: url(RaspoutineDemiBold_TB.otf);
+}
+
+/* Start Here */
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #E8E8E8;
+}
+
+.header {
+	background-color: #004953;
+	padding: 30px 20px;
+	text-align:center;
+	color: #d1a683;
+}
+
+.header h1 {
+	position: relative;
+	top: 14px;
+	left: 10px;
+	padding: 10px 10px;
+	font: 33pt century gothic;
+}
+
+/* Navigation */
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    text-align:center;
+	font: 17pt century gothic;
+}
+
+li {
+    display:inline;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 17px;
+    text-decoration: none;
+    display:inline-block;
+	font-size:20px;
+}
+
+a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+	background-color:#4CAF50;
+}
+
+/* Content */
+main{
+	background-color: #E8E8E8;
+}
+.index-content {
+ 	text-align:center;
+	padding: 15px;
+	margin: 0 auto;
+    max-width: 640px;
+    width: 94%;
+	color: black;
+}
+
+.index-content h2{
+	padding: 5px;
+	color: white;
+	font-family: RaspoutineDemiBold_TB;
+	position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: black;
+    border: 2px solid black;
+	outline: #004953 solid 10px;
+}
+
+.index-content p{
+	font: 15pt century gothic;
+	border: 2px solid black;
+    outline: #004953 solid 10px;
+    margin: auto;    
+    padding: 20px;
+    text-align: center;
+	background-color: #E8E8E8
+}
+
+.about-content{
+	text-align:center;
+	padding: 25px;
+	margin: 0 auto;
+    max-width: 640px;
+    width: 94%;
+	color: black;
+}
+
+.about-content h2{
+	padding: 5px;
+	color: white;
+	font-family: RaspoutineDemiBold_TB;
+	position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+	background-color: black;
+	border: 2px solid black;
+    outline: #004953 solid 10px;
+    margin: auto;    
+    text-align: center;
+}
+
+.about-content h3{
+	padding: 5px;
+	color: #d1a683;
+	font-family: RaspoutineDemiBold_TB;
+	position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+	background-color: #004953;
+	border: 2px solid black;
+    outline: #004953 solid 10px;
+    margin: auto;    
+    text-align: center;;
+}
+
+.about-content p{
+	text-align: center;
+	font: 15pt century gothic;
+	border: 2px solid black;
+    outline: #004953 solid 10px;
+    margin: auto;    
+    padding: 20px;
+}
+
+img {
+	max-width: 100%;
+}
+
+.slider-container{
+	height: 85%;
+	width: 100%;
+	position: relative;
+	overflow: hidden; 
+	text-align: center;
+}
+
+/* Gallery */
+.grid { 
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 10px;
+	align-items: center;
+	justify-items: center;
+	padding-bottom: 18px;
+	padding-top: 18px;
+}
+
+.grid img {
+	border: 1px solid #ccc;
+	box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+	max-width: 100%;
+	width: 420px;
+	height: 500px;
+	padding: 3px;
+	border: 7px solid #004953;
+	outline: black solid 3px;
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.grid img:hover {
+  width: 520px;
+  height: 600px;
+}
+
+/* Footer */
+#footer{
+	margin-bottom: -150px;
+	clear: both;
+}
+.tomottoWrap{
+	position: relative;
+	background: black;
+	color: white;
+}
+
+#tomotto{
+	margin: auto;
+	width: 700px;
+	text-align: center;
+	clear: both;
+	line-height: 2em;
+	color: white;
+	font: 10pt century gothic;
+}
+
+.lookWrap{
+	position: relative; 
+	background-color: #004953;
+	float: left;
+	width: 100%;
+}
+
+#look{
+	margin: auto;
+	width: 700px;
+	position: relative;
+	padding: 2px 2px;
+}
+
+.section{
+	overflow: hidden;
+	float: center;
+	display: inline;
+	width: 160px;
+	font: 10pt verdana;
+	line-height: 0px;
+	text-align: center;
+	color: #d1a683;
+}
+
+.section h3{
+	font-weight: normal;
+	font: 12pt Verdana;
+	color: #d1a683;
+}
+
+.section p{
+	font-weight: normal;
+	font: 12pt century gothic;
+	color: #d1a683;
+}
+
+.section a{
+	display: block;
+}
+
+.legality{
+	margin: auto;
+	width: 700px;
+	text-align: center;
+	clear: both;
+	font: 10pt century gothic;
+	line-height: 2em;
+	color: white;
+}

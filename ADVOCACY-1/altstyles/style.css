@@ -1,0 +1,169 @@
+/*font*/
+@font-face {
+    font-family: Regular;
+    src: url(Ubuntu-Regular.ttf);
+}
+@font-face {
+    font-family: Bold;
+    src: url(Ubuntu-Bold.ttf);
+}
+
+
+/*format*/
+body{
+	min-width: 900px;
+	max-width: 1050px;
+	font-family: Regular;
+	margin: 0px auto;
+	background-image:url(../images/plants.jpg);
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	}
+	
+
+	
+#container{
+	background-color:hsla(180,30%,75%,0.7);
+	width:100%;
+	height:100%;
+	}
+	
+#headimg{
+	width:100%;
+	height:30%;
+	}
+
+	
+/*navigation bar hover fade effect boy!*/
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image:url(../images/nav.jpg);
+	}
+
+li{
+    float: left;
+	}
+
+li a{
+    display: block;
+    color: white;
+	font-family:Bold;
+	font-size:20px;
+	font-weight:bold;
+	color:#F8F9F9;
+	text-shadow: 1px 1px #5D6D7E; 
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	transition: transform .3s;
+	}
+li a:hover{
+	transform: scale(1.01); 
+	}
+li a:hover:not(.active){
+    background-image:url(../images/nav2.jpg);
+`}
+
+.active{
+    background-image: url(../images/nav2.jpg);
+
+`}
+
+
+/*body content*/
+article{
+	margin: 0px 5px;
+	}
+h3{
+	font-family:Bold;
+	font-size:24px;
+	font-weight:bold;
+	color:#212F3C;
+	letter-spacing:4px;
+	}
+
+p{
+	font-family:Regular;
+	font-size:16px;
+	word-spacing:6.5px;
+	letter-spacing:1px;
+	text-align: justify;
+	color:#1B2631;
+	text-indent: 20px;
+	}
+	
+	
+
+/*images*/
+#centerImg{
+	width:40%;
+	position:relative;
+	transition: transform .3s;
+	transition-delay: 1.1s;
+	transition-duration: 0.1s;
+	}
+#centerImg:hover{
+	transform: scale(1.1); 
+	z-index: 1;
+	}
+#hall{
+	height:450px;
+	position:relative;
+	float:left;
+	transition: transform .3s;
+	transition-delay: 1.1s;
+	transition-duration: 0.1s;
+	}
+#hall:hover{
+	transform: scale(1.1); 
+	}
+#leftImg{
+	float:left;
+	width:50%;
+	transition: transform .3s;
+	transition-delay: 1.1s;
+	transition-duration: 0.1s;
+	}
+#leftImg:hover{
+	transform: scale(1.1); 
+	}
+#rightImg{
+	float:right;
+	width:50%;
+	transition: transform .3s;
+	transition-delay: 1.1s;
+	transition-duration: 0.1s;
+	}
+#rightImg:hover{
+	transform: scale(1.1); 
+	}
+	
+#picts{
+	width:30%;
+	position:relative;
+	transition: transform .3s;
+	}
+	
+#picts:hover{
+	transform: scale(2); 
+	z-index: 1;
+	}
+	
+	
+
+
+
+/*footer*/
+footer{
+	background-image:url(../images/nav2.jpg);
+	margin: 0px 5px;
+	font-family:Regular;
+	font-size: 12px;
+	color: white;
+	font-weight:italic;
+	text-align:center;
+	text-shadow: 1px 1px #5D6D7E;
+	}
